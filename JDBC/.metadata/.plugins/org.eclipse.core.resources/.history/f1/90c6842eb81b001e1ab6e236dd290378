@@ -1,0 +1,46 @@
+package unidirection;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Controller {
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("dev");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction=entityManager.getTransaction();
+		
+		Students students=new Students();
+		students.setId(1);
+		students.setName("raju");
+		students.setPhone(2345679765l);
+		
+		Students students1=new Students();
+		students1.setId(2);
+		students1.setName("prasad");
+		students1.setPhone(2345679115l);
+		
+		Students students2=new Students();
+		students2.setId(3);
+		students2.setName("srinivas");
+		students2.setPhone(23900065l);
+		
+		Department department=new Department();
+		department.setDep_id(1);
+		department.setName("Abhi");
+		department.setEmail("abhi@gamil.com");
+		
+		students.setDepartment(department);
+		students1.setDepartment(department);
+		students2.setDepartment(department);
+		
+		entityTransaction.begin();
+		entityManager.persist(students);
+		entityManager.persist(students1);
+		entityManager.persist(students2);
+		entityManager.persist(department);
+		entityTransaction.commit();
+		System.out.println("unidirection is done");
+	}
+}

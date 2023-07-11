@@ -1,0 +1,61 @@
+package unidirection;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Controller {
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("dev");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction=entityManager.getTransaction();
+		
+		Studentsuni s1=new Studentsuni();
+		s1.setId(1);
+		s1.setName("Preethu");
+		s1.setPhone(23456789876l);
+		
+		Studentsuni s2=new Studentsuni();
+		s2.setId(2);
+		s2.setName("srinivas");
+		s2.setPhone(2345678476l);
+		
+		Studentsuni s3=new Studentsuni();
+		s3.setId(3);
+		s3.setName("Sathish");
+		s3.setPhone(23456345576l);
+		
+		Collegesuni c1=new Collegesuni();
+		c1.setCol_id(11);
+		c1.setCol_name("SSCASC");
+		c1.setCol_Email("sscasc@gmail");
+		
+		Collegesuni c2=new Collegesuni();
+		c2.setCol_id(12);
+		c2.setCol_name("SSWCS");
+		c2.setCol_Email("sswcs@gmail");
+		
+		
+		Collegesuni c3=new Collegesuni();
+		c3.setCol_id(13);
+		c3.setCol_name("BEMHS");
+		c3.setCol_Email("bemhs@gmail");
+		
+		//mapping unidirection manytomany
+		c1.setStudents(s1);
+		c2.setStudents(s2);
+		c3.setStudents(s3);
+		
+		entityTransaction.begin();
+		entityManager.persist(s1);
+		entityManager.persist(s2);
+		entityManager.persist(s3);
+		entityManager.persist(c1);
+		entityManager.persist(c2);
+		entityManager.persist(c3);
+		entityTransaction.commit();
+		
+		
+	}
+}

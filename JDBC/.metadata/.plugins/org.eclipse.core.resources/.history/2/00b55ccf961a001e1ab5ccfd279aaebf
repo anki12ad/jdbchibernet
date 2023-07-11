@@ -1,0 +1,40 @@
+package bidirection;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Whatsapp1 {
+@Id
+private long phone;
+private String name;
+private String Email_Id;
+@OneToMany
+Contacts1 contacts1;
+public long getPhone() {
+	return phone;
+}
+public void setPhone(long phone) {
+	this.phone = phone;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getEmail_Id() {
+	return Email_Id;
+}
+public void setEmail_Id(String email_Id) {
+	Email_Id = email_Id;
+}
+public Contacts1 getContacts1() {
+	return contacts1;
+}
+public void setContacts1(Contacts1 contacts1) {
+	this.contacts1 = contacts1;
+}
+
+}

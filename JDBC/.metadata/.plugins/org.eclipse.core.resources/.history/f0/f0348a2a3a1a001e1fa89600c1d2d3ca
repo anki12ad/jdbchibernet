@@ -1,0 +1,43 @@
+package unidirection;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Whatsapp {
+@Id
+private long phone;
+private String User_name;
+private String email_Id;
+@OneToMany
+List<Contacts>contacts;
+public long getPhone() {
+	return phone;
+}
+public void setPhone(Long phone) {
+	this.phone = phone;
+}
+public String getUser_name() {
+	return User_name;
+}
+public void setUser_name(String user_name) {
+	User_name = user_name;
+}
+public String getEmail_Id() {
+	return email_Id;
+}
+public void setEmail_Id(String email_Id) {
+	this.email_Id = email_Id;
+}
+public List<Contacts> getContacts() {
+	return contacts;
+}
+public void setContacts(List<Contacts> contacts) {
+	this.contacts = contacts;
+}
+
+
+}

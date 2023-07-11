@@ -1,0 +1,32 @@
+
+package contoller;
+
+import dao.AccesspanObject;
+import dto.Pancard;
+
+public class Controller {
+	public static void main(String[] args) {
+		Pancard pancard=new Pancard();//create object
+//		pancard.setId(1);
+//		pancard.setName("Deepz");
+//		pancard.setPhone(9605543256l);
+//		
+		AccesspanObject panObject=new AccesspanObject();
+//		panObject.insert(pancard);
+		System.out.println("The setted values are transfered to the access pan object");
+		
+		//update
+//		panObject.update(1,"lochu",9887643234l);
+		
+		//fetch
+		panObject.fetch(1);
+		
+		//delete
+		panObject.delete(1);
+	}
+	
+	
+	
+	
+
+}

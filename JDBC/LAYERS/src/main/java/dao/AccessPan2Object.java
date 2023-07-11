@@ -1,0 +1,45 @@
+package dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import dto.Pancard;
+import dto.Pancard2;
+
+public class AccessPan2Object {
+	EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("dev");
+	EntityManager entityManager=entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction=entityManager.getTransaction();
+	
+	
+	public void insert(Pancard2 pancard2){
+		entityTransaction.begin();
+		entityManager.persist(pancard2);
+		entityTransaction.commit();
+		System.out.println("The values are updated");
+	}
+	public void update(int id,String name,long phone){
+		Pancard2 pancard2=entityManager.find(Pancard2.class, id);
+		pancard2.setName(name);
+		pancard2.setPhone(phone);
+		entityTransaction.begin();
+		entityManager.merge(pancard2);
+		entityTransaction.commit();
+		System.out.println("the values are updated");
+		
+	}
+	public void fetch(int id){
+		Pancard2 pancard2=entityManager.find(Pancard2.class, id);
+		System.out.println("id:"+pancard2.getId()+" "+"name:"+pancard2.getName()+" "+"phone:"+pancard2.getPhone());
+	}
+	public void delete(int id){
+		Pancard2 pancard2=entityManager.find(Pancard2.class, id);
+		entityTransaction.begin();
+		entityManager.remove(pancard2);
+		entityTransaction.commit();
+		System.out.println("the values are deleted");
+	}
+
+}

@@ -1,0 +1,31 @@
+package unidirection;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Controller {
+public static void main(String[] args) {
+	EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("dev");
+	EntityManager entityManager=entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction=entityManager.getTransaction();
+	
+	Pancard pancard=new Pancard();
+	pancard.setId(1);
+	pancard.setName("Deepuu");
+	pancard.setPhone(4567899716143l);
+	
+	Person person=new Person();
+	person.setEmail_Id("deepu123@gmail.com");
+	person.setName("Gowri");
+	person.setAadhar_Id(555544445555l);
+	
+	pancard.setPerson(person);
+	entityTransaction.begin();
+	entityManager.persist(pancard);
+	entityManager.persist(person);
+	entityTransaction.commit();
+	System.out.println("created successfully");
+}
+}

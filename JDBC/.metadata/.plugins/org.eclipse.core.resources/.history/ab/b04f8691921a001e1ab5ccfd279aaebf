@@ -1,0 +1,35 @@
+package bidirection;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import bidirection.Whatsapp1;
+
+public class Driver {
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("dev");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction=entityManager.getTransaction();
+		
+		Whatsapp1 whatsapp1=new Whatsapp1();
+		whatsapp1.setPhone(245645767l);
+		whatsapp1.setName("deepz");
+		whatsapp1.setEmail_Id("deepzanki@gmail.com");
+		
+		Contacts1 contacts1=new Contacts1();
+		contacts1.setEmail_Id("Loch@gmail");
+		contacts1.setName("lochu");
+		contacts1.setPhone(3458956789l);
+		
+		Contacts1 contacts9=new Contacts1();
+		contacts9.setEmail_Id("Loch@gmail");
+		contacts9.setName("lochu");
+		contacts9.setPhone(3458956789l);
+		
+		
+		
+		
+}
+}

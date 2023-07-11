@@ -1,0 +1,40 @@
+package unidirection;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Collegesuni {
+@Id
+private int col_id;
+private String col_name;
+private String col_Email;
+@ManyToMany
+Studentsuni students;
+public int getCol_id() {
+	return col_id;
+}
+public void setCol_id(int col_id) {
+	this.col_id = col_id;
+}
+public String getCol_name() {
+	return col_name;
+}
+public void setCol_name(String col_name) {
+	this.col_name = col_name;
+}
+public String getCol_Email() {
+	return col_Email;
+}
+public void setCol_Email(String col_Email) {
+	this.col_Email = col_Email;
+}
+public Studentsuni getStudents() {
+	return students;
+}
+public void setStudents(Studentsuni students) {
+	this.students = students;
+}
+
+}

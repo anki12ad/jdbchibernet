@@ -1,0 +1,30 @@
+package contoller;
+
+import dao.AccessPan2Object;
+import dao.AccesspanObject;
+import dto.Pancard;
+import dto.Pancard2;
+
+public class Driver {
+	public static void main(String[] args) {
+		Pancard2 pancard2=new Pancard2();//create object
+//		pancard2.setId(1);
+//		pancard2.setName("Deepz");
+//		pancard2.setPhone(9605543256l);
+//		
+		AccessPan2Object pan2Object=new AccessPan2Object();
+//		pan2Object.insert(pancard2);
+		System.out.println("The setted values are transfered to the access pan object");
+		
+		//update
+//		pan2Object.update(1,"lochu",9887643234l);
+		
+		//fetch
+		pan2Object.fetch(1);
+		
+		//delete
+		pan2Object.delete(1);
+	}
+	
+
+}

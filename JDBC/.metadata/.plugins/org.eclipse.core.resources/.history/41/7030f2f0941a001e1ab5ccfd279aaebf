@@ -1,0 +1,42 @@
+package unidirection;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Person {
+	@Id
+	private String email_Id;
+	private String name;
+	private Long aadhar_Id;
+	@OneToOne
+	Pancard pancard;
+	public String getEmail_Id() {
+		return email_Id;
+	}
+	public void setEmail_Id(String email_Id) {
+		this.email_Id = email_Id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Long getAadhar_Id() {
+		return aadhar_Id;
+	}
+	public void setAadhar_Id(Long aadhar_Id) {
+		this.aadhar_Id = aadhar_Id;
+	}
+	public Pancard getPancard() {
+		return pancard;
+	}
+	public void setPancard(Pancard pancard) {
+		this.pancard = pancard;
+	}
+		
+	
+
+}
