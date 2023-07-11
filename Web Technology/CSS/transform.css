@@ -1,0 +1,69 @@
+body{
+    /* display: flex; */
+}
+#a{
+    height: 40vh;
+    width: 50%;
+    /* background-color: red; */
+    border: 5px inset orangered;
+    background-image: linear-gradient(to top right,red 40%,blue 40%,blue 60%,yellow 60%,yellow 80%,green 80%);
+    /* transition-property: width,height;
+    transition-duration: 2s 12s;
+    transition-timing-function: linear,linear;
+    transition-delay: 0.1s,0.1s; */
+    transition: width 2s linear 0.1s height 2s linear0.1s, transform 3s;/*shorthand indivisual property*/
+    transition: all 2s linear 1s;/*shorthand property*/
+}
+#a:hover{
+    /* width: 60%;
+    height:35vh ;
+    transform: rotate(360deg);
+    transform: scaleX(0.5);
+    transform: scaleY(1);
+    transform: scale(2,0.5); */
+    transform: translateX(200px);
+    transform: translateY(100px);
+    transform: translate(300px,100px);
+    transform: skewX(180deg);
+    transform: skewY(360deg);
+    transform: skew(180deg,270deg);
+}
+ /* #b{
+    height: 40vh;
+    width: 50%;
+    
+    background-image: repeating-linear-gradient(to bottom left,red 0%,red 10%,blue 10%,blue 20%,yellow 20%,yellow 30%);
+    border: 5px inset orangered;
+}
+#c{
+    height: 40vh;
+    width: 50%;
+    
+    background-image: radial-gradient(yellow 30%,blue 30%, blue 60%,red 60%);
+    border: 5px inset orangered;
+}
+#d{
+    height: 40vh;
+    width: 50%;
+   
+    border: 5px inset orangered;
+    background-image: repeating-radial-gradient(red 0%,red 3%,green 3%, green 6%);
+}
+#e{
+    height: 40vh;
+    width: 50%;
+    
+    background-image: conic-gradient(black 35%,white 35%,white 55%,red 55%,red 75%);
+    border: 5px inset orangered;
+}
+#f{
+    height: 40vh;
+    width: 50%;
+    
+    background-image: repeating-conic-gradient(yellow 0%,yellow 5%,rgb(228, 20, 86) 5%,rgb(224, 21, 133) 10% );
+    border: 5px inset orangered;
+
+} */ 
+body{
+    background-image: repeating-conic-gradient(rgb(233,230,230) 0.36deg,black 0.39deg);
+}

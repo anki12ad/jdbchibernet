@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        article{
+            height: 40vh;
+            width: 40vw;
+            background-image: repeating-radial-gradient( rgb(216, 77, 12) 0% ,rgb(214, 77, 13) 3%,white,white 5%, black 5%,black 10%);
+            animation-name: box;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+        }
+        @keyframes box{
+            from{
+                width: 40vw;
+                border-radius: 5%;
+
+            }
+            to{
+                width: 100vw;
+                border-radius: 50%;
+            }
+            0%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+
+            }
+            25%{
+                position: relative;
+                top: 250px;
+                left: 0px;
+            }
+            50%{
+                position: relative;
+                top: 250px;
+                left: 250px;
+            }
+            75%{
+                position: relative;
+                top: 0px;
+                left: 250px;
+            }
+             100%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <article>
+        
+
+    </article>
+    
+</body>
+</html>

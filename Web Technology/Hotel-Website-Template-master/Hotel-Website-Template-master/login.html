@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        #b1
+        {
+            overflow-x: hidden;
+            /* background-color: #de76ac; */
+            background-image:url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_640.jpg") ;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+
+        }
+        #div1
+        {
+            height: 400px;
+            width: 300px;
+            border: 0px solid black;
+            position: relative;
+            left: 570px;
+            top: 100px;
+            background-color: white;
+        }
+        #h3
+        {
+            position: relative;
+            left: 20px;
+            top: 30px;
+            border: 3px solid #A60056;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            width: 20px;
+        }
+        #name
+        {
+            position: relative;
+            top: 30px;
+            left: 20px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom-color: #A60056;
+            height: 30px;
+            width: 260px;
+        }
+        input:focus{
+            outline: none;
+        }
+        ::placeholder{
+            color: blueviolet;
+            
+        }
+       
+        #pass
+       {
+        position: relative;
+            top: 30px;
+            left: 20px;
+            border: 2px solid #A60056;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom-color: #A60056;
+            height: 30px;
+            width: 260px;
+       }
+       #but
+       {
+        position: relative;
+        top: 40px;
+        left: 20px;
+        border: 0px;
+        background-color: #A60056;
+        height: 30px;
+        width: 260px;
+        color: white;
+       }
+       #p1
+       {
+        position: relative;
+        top: 40px;
+        left: 40px;
+        font-size: 13px;
+       }
+       #but1
+       {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        background-color: #17BAFD;
+        width: 260px;
+        border: 0px;
+        height: 30px;
+        color: white;
+       }
+       .fa-brands 
+       {
+            position: relative;
+            left: -20px;
+       }
+       #but2
+       {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        background-color:#4468B4;
+        width: 260px;
+        border: 0px;
+        height: 30px;
+        color: white;
+       
+       }
+       
+    </style>
+</head>
+<body  id="b1">
+      <form action="registration.html">
+        <div id="div1" >
+        <h3 id="h3">Login</h3>
+        
+        <input id="name" type="text" name="username" placeholder="User Name" autocomplete="off"><br><br>
+        <input id="pass" type="password" name="password" placeholder="Password" autocomplete="off"><br><br>
+       <a href="templete2.html"> <button id="but" type="submit">Continue</button></a>
+        <p id="p1">OR continue with the Social Media</p>
+
+        <div>
+            <a href="https://twitter.com/i/flow/login"><button id="but1" type="submit"><i class="fa-brands fa-twitter"></i>Sign in with Twitter</button></a><br><br>
+            <a href="https://www.facebook.com/login/"><button id="but2" type="submit"><i class="fa-brands fa-facebook"></i>Sign in with facebook</button></a>
+        </div>
+    </div>
+</form>
+</body>
+</html>

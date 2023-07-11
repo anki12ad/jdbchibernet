@@ -1,0 +1,637 @@
+#one{
+    background-image: linear-gradient(#184C99 10%,rgb(4, 1, 11));
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    left: 240px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
+#body1{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    color: white;
+
+}
+.form{
+    position: relative;
+    top: 16px;
+    right: 20px;
+    height: 40px;
+    
+}
+.but
+{
+    position: relative;
+    top: 16px;
+    right: 60px;
+    height: 40px;
+    background-color: #f45d11;
+    color:white;
+}
+/* header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 10px;
+} */
+/* li{
+    position: relative;
+    top: 20px;
+    background-color: black;
+
+} */
+#f{
+    height: 35px;
+    width: 40px;
+    position: relative;
+    bottom: -10px;
+    right: 50px;
+}
+
+#d{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    justify-content: center;
+    
+}
+#demo1{
+    position: relative;
+    left: -30px;
+    top: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#demo2{
+    position: relative;
+    left: -30px;
+    top: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#demo3{
+    position: relative;
+    left: -20px;
+    top: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#demo4{
+    position: relative;
+    left: -25px;
+    top: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.aa{
+    font-size: 10px;
+    background-color: white;
+    border: 0;
+    padding: 4px;
+    position: relative;
+    top: -5px;
+ }
+.bb{
+    font-size: 10px;
+    background-color: rgb(116, 162, 247);
+    border: 0;
+    padding: 4px;
+    position: relative;
+    top: -5px;
+}
+#img{
+    position: relative;
+    left: 490px;
+    bottom: 230px;
+    height: 300px;
+    width: 450px;
+}
+#o{
+    position: relative;
+    top: 80px;
+    left: 15%;
+    color: rgb(241, 83, 15);
+}
+#i{
+    position: relative;
+    top: 70px;
+    left: 15%;
+    color: white;
+    font-size: 60px;
+}
+#im{
+    position: relative;
+    bottom: 390px;
+    left: 390px;
+    height: 100px;
+    width: 150px;
+}
+#we{
+    color: white;
+    position: relative;
+    bottom: 190px;
+    right: -150px;
+}
+#box{
+    border: 0px;
+    background-color:#3b85f3 ;
+    position: relative;
+    bottom: 200px;
+    right: -150px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    
+}
+#le{
+    padding: 8px;
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+    font-size: 20px;
+    border: 2px solid  #23A6F0 ;
+    color: #44b3f4;
+    background-color: #f5ecf5;
+}
+#bo{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    left: 80px;
+    top: -100px;
+    border-radius: 25px;
+}
+
+#h{
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+#bo1{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    left: 410px;
+    top: -339px;
+    border-radius: 25px;
+}
+#bo2{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    left: 740px;
+    top: -580px;
+    border-radius: 25px;
+}
+#p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+#p1
+{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+#h1
+{
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+#p2
+{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+#h2
+{
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+#img2{
+    position: relative;
+    top: -400px;
+    left: 90px;
+    width: 400px;
+    height: 250px;
+}
+#pack{
+    position: relative;
+    left: 600px;
+    top: -650px;
+    color: white;
+}
+#para{
+    position: relative;
+    left: 600px;
+    top: -650px;
+    color: white;
+}
+#M{
+    color: #23A6F0;
+    position: relative;
+    left: 600px;
+    top: -660px;
+    font-size: 20px;
+}
+#bar{
+    position: relative;
+    left: 430px;
+    top: -890px;
+    height: 80px;
+    width: 100px;
+}
+#df{
+    background-color: palevioletred;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    top: -980px;
+}
+#ppp{
+    border: 1px solid white;
+    position: relative;
+    top: -670px;
+}
+.zz{
+    color: #23A6F0;
+    position: relative;
+    top: -550px;
+    left: 70px;
+}
+#xxx{
+    color: white;
+    position: relative;
+    top: -550px;
+    left: 70px;
+
+}
+#tt{
+    color: white;
+    position: relative;
+    top: -550px;
+    left: 70px;
+}
+#div1{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    left: 60px;
+    top: -500px;
+}
+#e{
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: 20px;
+    color: #23A6F0;
+}
+#Learn{
+    position: relative;
+    left: -10px;
+    top: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(37, 240, 68);
+    color: #ea414a;
+    height: 40px;
+}
+#ee{
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+#Learn1{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(29, 235, 60);
+    color: #e43f3f;
+    height: 40px;
+}
+#e1{
+    position: relative;
+    left: 25px;
+    top: -10px;
+    font-size: 20px;
+    color: #23A6F0;
+}
+#ee1{
+    position: relative;
+    left: 25px;
+    top: -10px;
+}
+#Learn2{
+    position: relative;
+    left: 0px;
+    top: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(14, 244, 29);
+    color: #f63d3d;
+    height: 40px;
+}
+#e2{
+    position: relative;
+    left: 30px;
+    top: -10px;
+    font-size: 20px;
+    color: #23A6F0;
+}
+#ee2{
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+
+#div2{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    left: 400px;
+    top: -900px;
+}
+#div3{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    left: 750px;
+    top: -1300px;
+}
+#music{
+    height: 150px;
+    width: 240px;
+    position: relative;
+    left: 5px;
+    top: 4px;
+}
+#music1{
+    height: 150px;
+    width: 240px;
+    position: relative;
+    left: 6.5px;
+    top: 5px;
+}
+#music2{
+    height: 150px;
+    width: 240px;
+    position: relative;
+    left: 7px;
+    top: 6.5px;
+}
+.zz1{
+    color: #f45d11;
+    position: relative;
+    top: -1150px;
+    left: 75px;
+    font-size: 20px;
+}
+#xxx1{
+    color: white;
+    position: relative;
+    top: -1150px;
+    left: 75px;
+}
+#tt1{
+    color: white;
+    position: relative;
+    top: -1150px;
+    left: 75px;
+    font-size: 20px;
+}
+#div11{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    left: 60px;
+    top: -1100px;
+    border-radius: 10px;
+}
+#div21{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    left: 400px;
+    top: -1398px;
+    border-radius: 10px;
+}
+#div31{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    left: 740px;
+    top: -1700px;
+    border-radius: 10px;
+}
+#man{
+    position: relative;
+    top: 220px;
+    left: 25px;
+    border-radius: 30%;
+    height: 50px;
+    width: 80px;
+}
+#name{
+    position: relative;
+    top:160px;
+    left: 120px;
+
+}
+#man1{
+    position: relative;
+    top: 220px;
+    left: 25px;
+    border-radius: 30%;
+    height: 50px;
+    width: 80px;
+}
+#name1{
+    position: relative;
+    top:160px;
+    left: 130px;
+}
+#man2{
+    position: relative;
+    top: 220px;
+    left: 30px;
+    border-radius: 30%;
+    height: 50px;
+    width: 80px;
+}
+#name2{
+    position: relative;
+    top:160px;
+    left: 130px;
+}
+#star{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    text-align: justify;
+}
+#star1{
+    position: relative;
+    top: -40px;
+    left: 40px;
+    text-align: justify;
+}
+#star2{
+    position: relative;
+    top: -40px;
+    left: 40px;
+    text-align: justify;
+}
+.star{
+    position: relative;
+    top: -210px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 80%;
+}
+.star1{
+    position: relative;
+    top: -210px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 80%;
+}
+.star2{
+    position: relative;
+    top: -210px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 80%;
+}
+.aa1{
+    text-align: center;
+    position: relative;
+    bottom: 1550px;
+    right: 30px;
+    font-size: 30px;
+    color: orangered;
+    text-shadow: 2px 2px 2px green;
+}
+#bb1{
+    text-align: center;
+    position: relative;
+    bottom: 1600px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+}
+#cc1{
+    text-align: center;
+    position: relative;
+    bottom: 1550px;
+    right: 30px;
+    font-size: 50px;
+    color: white;
+}
+.form11{
+    position: relative;
+   bottom: 1500px;
+    right: 10px;
+    width: 450px;
+    height: 50px;
+}
+.but11{
+    position: relative;
+    bottom: 1500px;
+    right: 20px;
+    width: 250px;
+    height: 50px;
+    color: #eee9e7;
+    background-color: #f45d11;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #184C99;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    bottom: 1500px;
+    width: 90%;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 0.6;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px 1px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #eceaef;
+    margin-bottom: 10px;
+}
+form input{
+width: 200px;
+height: 45px;
+border-radius: 4px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 40px;
+outline: none;
+border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+

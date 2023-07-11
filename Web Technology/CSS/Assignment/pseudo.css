@@ -1,0 +1,41 @@
+/* #img{
+    height: 200px;
+    width: 200px;
+}
+#id{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 950px;
+}
+#mug{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 170px;
+    top: 200px;
+}
+#flo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 610px;
+    top: 400px;
+
+}
+#ro{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 340px;
+    top: 400px;
+} */
+div{
+    height: 90vh;
+    width: 100%;
+    background-color: gold;
+    background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg"),url("https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_640.jpg"),url("https://cdn.pixabay.com/photo/2015/03/28/16/40/lake-696098_640.jpg"),url("https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_640.jpg"),url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_640.jpg");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 400px 25vh,400px 25vh,400px 25vh,400px 25vh,400px 25vh;
+    background-position: top left,top right, center, bottom left,bottom right;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="template2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        #d:hover{
+            color: #e95515;
+            border: 2px ;
+            margin: 0px;
+        }
+        #demo1:hover{
+            color: rgb(234, 91, 14);
+        }
+        #demo2:hover{
+            color: rgb(234, 91, 14);
+        }
+        #demo3:hover{
+            color: rgb(234, 91, 14);
+        }
+        #demo4:hover{
+            color: rgb(234, 91, 14);
+        }
+    </style>
+</head>
+<body id="body1"> 
+    <div id="one">
+        <header>
+            <nav>
+                <ul>
+                    <li><img id="f" src="data:image/png;base64,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" alt=""></li>
+                    <li id="d">BrandName</a></li>
+                    <li id="demo1"><a href="#"></a>Home</li>
+                    <li id="demo2">Product</li>
+                    <li id="demo3">Pricing</li>
+                    <li id="demo4">Contact</li>
+                            <input class="form" type="search" placeholder="Search" aria-label="Search">
+                            <button class="but" type="submit">Search</button>
+                </ul>
+            </nav>
+        </header>
+            <h1 id="o"><b>Online training</b></h1>
+            <h1 id="i">In-depth, <br> demanding <br> courses</h1>
+            <img  id="img" src="https://media.istockphoto.com/id/1278728777/photo/happy-young-asian-businesswoman-sitting-on-her-workplace-in-the-office-young-woman-working-at.jpg?s=612x612&w=0&k=20&c=_1SdOesBgWXYsoR6Gk9i0u2ceOj-oxl7yrXIehVI4aI=" alt="">
+            <img   id="im"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBbbixx5IVHkbF9-KqYBTkTTdO_2XShp2KA&usqp=CAU" alt="">
+            <h2 id="we">we know how large object will act, <br> but things on a small scale</h2><br>
+            <button id="box">Get Quote Now  <a href="#"><button id="le">Learn More</a></button></button>
+            <div id="bo"><h5 id="h">training Courses</h5> <center><i class="fa-solid fa-flag fa-xl" style="color: #f42e0b;"></i></center><p id="p">The gradual accumulation of <br> information about atomic and <br> small-scale behaviour....</p></div><br>
+            <div id="bo1"><h5 id="h1">Evaluation Time</h5> <center><i class="fa-solid fa-location-dot fa-xl" style="color: #f90b0b;"></i></center><p id="p1">The gradual accumulation of <br> information about atomic and <br> small-scale behaviour....</p></div><br>
+            <div id="bo2"><h5 id="h2">Evaluation Time</h5> <center><i class="fa-sharp fa-solid fa-book fa-xl" style="color: #f40b0b;"></i></center><p id="p2">The gradual accumulation of <br> information about atomic and <br> small-scale behaviour....</p></div>
+            <img id="img2"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfEtOScPqnL5qgs3Q6Na3QCg8_vBr641r8Tg&usqp=CAU" alt="">
+            <div id="col"></div>
+            <h1 id="pack"> Packages that <br> are aprodable</h1>
+            <p id="para">Problems trying to resolve the conflict between  <br>the two major realms of Classical physics: <br>Newtonian mechanics</p>
+            <h5 id="M"><b>Learn more ></b></h5>
+            <img id="bar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMcO2Wd3H4NcT5Yyo6ZJKuM_zPpsitBohvw&usqp=CAU" alt="">
+            <div id="df"></div>
+            <p id="ppp"></p>
+            <p class="zz">practice advice</p>
+            <h1 id="xxx">Watch our Courses</h1>
+            <p id="tt">Problems trying to resolve the conflict between  <br>the two major realms of Classical physics: <br>Newtonian mechanics</p>
+            <div id="div1"><img id="music" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9G5jdYitQzqzhNI-mc_6BAkEYk7OXDG-VWUS9MAWy1DheM0UyeV9g9rAA1hZtXXExi7g&usqp=CAU" alt=""><p id="e">English Deportment <br> Graphic Design</p><p id="ee">we focus on ergonomics and <br> meeting you where you work. It's <br> only a keystroke away. <br><br>$16.48</p><center><button id="Learn">Learn More</button></center></div>
+            <div id="div2"><img id="music1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoNfu5oV37kpcDJOw7zu7ET2cGNGz9EZYkLQ&usqp=CAU" alt=""><p id="e1">English Deportment <br> Graphic Design</p><p id="ee1">we focus on ergonomics and <br> meeting you where you work. It's <br> only a keystroke away. <br><br>$18.48</p><center><button id="Learn1">Learn More</button></center></div>
+            <div id="div3"><img id="music2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqtb5E2hqwzF0YsU0RBmz2Ri7fpG9OjXyh0A&usqp=CAU" alt=""><p id="e2">English Deportment <br> Graphic Design</p><p id="ee2">we focus on ergonomics and <br> meeting you where you work. It's <br> only a keystroke away. <br> <br>$19.64</p><center><button id="Learn2">Learn More</button></center></div>
+
+            <p class="zz1"><b>practice advice</b></p>
+            <h1 id="xxx1">Each and Every Client Importent </h1>
+            <p id="tt1">Problems trying to resolve the conflict between<br>the two major realms of Classical physics:Newtonian mechanics</p>
+            <div id="div11"><img id="man" src="https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao=" alt=""><h5 id="name">Regina miles <br>Designer</h5><p id="star">Slate helps you see <br>how many more days <br> you need to work to  <br>reach your financial <br>goal for the month and year.</p><img class="star" src="https://t4.ftcdn.net/jpg/04/19/32/65/360_F_419326577_7jvUnyFuu7edrhrZsXECyyHPavfp8QR6.jpg" alt=""></div>
+            <div id="div21"><img id="man1"  src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=2048x2048&w=is&k=20&c=YmjrR4r6G_4XUliPPK3PPLHrkqKLvSY2D3ZEQewLZ38=" alt=""><h5 id="name1">Regina miles <br>Designer</h5><p id="star1">Slate helps you see <br>how many more days <br> you need to work to  <br>reach your financial <br>goal for the month and year.</p><img class="star1" src="https://t4.ftcdn.net/jpg/04/19/32/65/360_F_419326577_7jvUnyFuu7edrhrZsXECyyHPavfp8QR6.jpg" alt=""></div>
+            <div id="div31"><img id="man2" src="https://media.istockphoto.com/id/1413766112/photo/successful-mature-businessman-looking-at-camera-with-confidence.jpg?s=2048x2048&w=is&k=20&c=KPnbXWbV0dJewQ5B1sbbcX7ox5UpuzHnrTrPVkLhdNc=" alt=""><h5 id="name2">Regina miles <br>Designer</h5><p id="star2">Slate helps you see <br>how many more days <br> you need to work to  <br>reach your financial <br>goal for the month and year.</p><img class="star2" src="https://t4.ftcdn.net/jpg/04/19/32/65/360_F_419326577_7jvUnyFuu7edrhrZsXECyyHPavfp8QR6.jpg" alt=""></div>
+
+
+            <p class="aa1"><b>practice advice</b></p>
+            <h1 id="cc1">Featured Products</h1><br><br>
+            <p id="bb1">Problems trying to resolve the conflict between<br>the two major realms of Classical physics:Newtonian mechanics</p>
+           
+           <center> <input class="form11" type="search" placeholder="your Email" aria-label="Search">
+            <button class="but11" type="submit">Search</button>
+            <br>
+        </center>
+
+        <section>
+            <div class="footer">
+                <div class="col-1">
+                    <h3>Company Info</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Carrier
+                    <a href="#">We are hirring</a>
+                    <a href="#">contact</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="col-2">
+                    <h3>NEWSLETTER</h3>
+                    <form>
+                        <input type="email" placeholder="your Email Address" required>
+                        <br>
+                        <button type="submit">SUBSCRIBE NOW</button>
+                    </form>
+                </div>
+                <div class="col-3">
+                    <h3>CONTACT</h3>
+                    <P>123 , XYZ ,Road ,BSK 3 <br> Banglore  ,Karnataka , IN</P>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                        <i class="fa-brands fa-telegram fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+</body>
+</html>

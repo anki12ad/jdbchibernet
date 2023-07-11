@@ -1,0 +1,94 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main{
+    height: 50vh;
+    width: 55%;
+    background-color: white;
+    position: relative;
+    top: 200px;
+    right: 550px;
+    /* align-content: flex-center; */
+    border: 4px solid black;
+    border-top-right-radius: 9%;
+    border-bottom-left-radius: 9%;
+    box-shadow: 10px 8px 13px black;
+    
+}
+#section-1{
+    height: 50vh;
+    width: 46%;
+    background-image: url("https://cdn.pixabay.com/photo/2023/03/13/20/07/dress-7850663_640.jpg");
+    border-bottom-left-radius: 12%;
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+}
+#bank{
+    
+    text-shadow: 2px red,2px white;
+    font-size: 25px;
+}
+form{
+    position: relative;
+    bottom: 350px;
+    left: 53%;
+    line-height: 40px;
+    font-size: 20px;
+}
+input{
+    height: 25px;
+    width: 120%;
+    border: 2px solid blue;
+}
+::placeholder{
+    position: relative;
+    left: 20%;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+label{
+    color: black;
+}
+button[type="submit"]{
+    position: relative;
+    left: 40%;
+    top: 10px;
+    height: 32px;
+    width: 60%;
+    font-size: 20px;
+    background-color: rgba(172, 188, 190, 0.324);
+    border-radius: 7%;
+    cursor: pointer;
+    border: 3px solid black;
+    /* transition: all 1.5s linear; */
+}
+button[type="submit"]:hover{
+    transform: scale(1.1,1.1);
+}
+button[type="reset"]{
+    position: relative;
+    left: 40%;
+    top: 10px;
+    height: 32px;
+    width: 60%;
+    font-size: 20px;
+    background-color: rgba(145, 155, 156, 0.352);
+    border-radius: 7%;
+    cursor: pointer;
+    border: 3px solid black;
+}
+button[type="reset"]:hover{
+    transform: scale(1.1,1.1);
+}
+h1{
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+    top: 60px;
+}

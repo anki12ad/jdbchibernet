@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+#main{
+    height: 50vh;
+    width: 55%;
+    background-color: white;
+    position: relative;
+    left: 8%;
+    border: 4px groove black;
+    /* border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%; */
+    /* border-radius: 20%; */
+    box-shadow: 10px 8px 13px black;
+    position: relative;
+    
+}
+#section-1{
+    height: 50vh;
+    width: 40%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/27/08/24/table-4656327_1280.jpg");
+    border-bottom-left-radius: 35%;
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+    
+}
+#bank{
+    /* background-image: linear-gradient(orange, green); */
+    text-shadow: 2px red,2px white;
+    font-size: 25px;
+    
+}
+form{
+    position: relative;
+    bottom: 350px;
+    left: 43%;
+    line-height: 40px;
+    font-size: 20px;
+}
+input{
+    height: 25px;
+    width: 120%;
+    border: 2px solid blue;
+}
+::placeholder{
+    position: relative;
+    left: 20%;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+label{
+    color: black;
+}
+button[type="submit"]{
+    position: relative;
+    left: 40%;
+    height: 32px;
+    width: 60%;
+    font-size: 20px;
+    background-color: rgb(11, 89, 100);
+    border-radius: 7%;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all 0.5s linear;
+}
+button[type="submit"]:hover{
+    transform: scale(1.1,1.1);
+}
+button[type="reset"]{
+    position: relative;
+    left: 40%;
+    height: 32px;
+    width: 60%;
+    font-size: 20px;
+    background-color: rgb(11, 89, 100);
+    border-radius: 7%;
+    cursor: pointer;
+    border: 3px solid black;
+}
+button[type="reset"]:hover{
+    transform: scale(1.1,1.1);
+}
+h1{
+    font-size: 50px;
+    position: relative;
+    left: 15%;
+}

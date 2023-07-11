@@ -1,0 +1,23 @@
+div{
+    height: 120px;
+    width: 190px;
+    background-image: linear-gradient(orangered 0%, orangered 35%, white 35%, white 65%, green 65%, green 95%);
+    position: relative;
+    left: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+p{
+    height: 40px;
+    width: 40px;
+    background-image: repeating-conic-gradient(white 0%, white 5%, blue 5%,blue 11%);
+    border: 3px solid blue;
+    position: relative;
+    top: 20px;
+    left: 73px;
+    border-radius: 50%;
+}
+body{
+
+    
+}

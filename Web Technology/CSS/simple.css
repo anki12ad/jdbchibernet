@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+#Sample{
+    background-color: blueviolet;
+}
+#Demo{
+    background-color: chocolate;
+    color: black;
+}
+#Test{
+    background-color: darkgoldenrod;
+    color: blue;
+}
+.aa{
+    background-color: chartreuse;
+    font-size: 50px;
+    color: bisque;
+}
+#art{
+    background-color: crimson;
+    font-size: 30px;
+    color: white;
+}
+h1,p,pre{
+    color: darkgoldenrod;
+}
+#wonderfull{
+    background-color: blueviolet;
+    font-size: 40px;
+}
+#head{
+    color: blue;
+    background-color: beige;
+    font-size: 40px;
+}
+ 
+.mark{
+    color: darkorchid;
+    background-color: firebrick;
+
+}
+ *{
+    background-color: green;
+    font-size: 70px;
+ }
+h4{
+    height: 400px;
+    width: 40%;
+    background-color: gray;
+}

@@ -1,0 +1,37 @@
+div{
+    height: 700px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/22/11/22/superb-fairywren-8010454_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    color: black;
+}
+div::first-letter{
+    color: crimson;
+    font-size: 50px;
+}
+div::first-line{
+    color: coral;
+    font-size: 30px;
+}
+div::after{
+    content: "THANK YOU";
+    font-size: 10px;
+    color: darkviolet;
+}
+
+div::before{
+    content: "Heading=>";
+    color: rgb(18, 240, 26);
+    font-size: 30px;
+}
+
+div::selection{
+    color: aqua;
+    background-color: brown;
+}
+
+li::marker{
+    color: green;
+    font-size: 50px;
+}

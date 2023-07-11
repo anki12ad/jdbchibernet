@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1277179691/photo/close-up-employee-woman-hand-typing-on-keyboard-laptop-to-checking-task-and-response-email.jpg?s=612x612&w=0&k=20&c=YxNQMBfk-jbgjL4VCwsjqKic0oKDylZeK5h05grXjOI=");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+#login{
+    height: 50vh;
+    width: 20%;
+    background-color: rgba(128, 128, 128, 0.463);
+    position: relative;
+    top: 150px;
+    left: 40%;
+    border-radius: 5%;
+    line-height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+
+    
+}
+input{
+    height: 40px;
+    width: 80%;
+    border-left: 50%;
+
+}
+#su{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    color: black;
+    background-color: rgb(97, 99, 104);
+    position: relative;
+    left: 20px;
+    
+}
+#re{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    color: black;
+    background-color: rgb(97, 99, 104);
+    position: relative;
+    left: 80px;
+
+}
+::placeholder{
+    color: blueviolet;
+    text-align: center;
+}
+span{
+    position: relative;
+    left: 25px;
+}
+a{
+    position: relative;
+    left: 30px;
+}
+#Icon{
+    position: relative;
+    top: -50px;
+    left: 120px;
+}
+#un{
+    position: relative;
+    right: 30px;
+}

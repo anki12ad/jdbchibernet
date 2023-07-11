@@ -1,0 +1,33 @@
+
+#name{
+    background-color: aqua;
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+    color: blue;
+}
+.aa{
+    background-color: crimson;
+    font-size: 10px;
+    color: cornsilk;
+    height: 80px;
+    width: 80px;
+}
+#cool{
+    background-color: darkgrey;
+    font-size: 10px;
+    color: darkmagenta;
+    height: 80px;
+    width: 80px;
+}
+h4{
+    background-color: hotpink;
+    font-size: 10px;
+    color: black;
+    height: 80px;
+    width: 80px;
+}
+*
+{
+    background-color: rgb(245, 68, 15);
+}

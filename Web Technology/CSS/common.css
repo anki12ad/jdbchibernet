@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+    color: blue;
+}
+/* #container h1:first-child{
+color: black;
+} */
+/* #container h1:last-child{
+    color: black;
+    } */
+/* #container h1:first-of-type{
+     color: black;
+     } */
+    /* #container h1:last-of-type{
+        color: black;
+        } */
+    #container p:nth-child(1){
+            color: black;
+            }
